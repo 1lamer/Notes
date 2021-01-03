@@ -1,0 +1,17 @@
+.row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	@media screen and (max-width: $phoneWidth) {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+
+.col {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}

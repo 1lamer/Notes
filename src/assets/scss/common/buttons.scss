@@ -1,0 +1,58 @@
+.btn {
+  display: inline-block;
+
+  padding: .8em 2.6em;
+  margin: 20px 0;
+
+  border-radius: 30px;
+
+  cursor: pointer;
+
+  font-family: 'Raleway';
+  line-height: 1;
+  text-transform: uppercase;
+
+  transition: all .25s;
+
+  &:hover {
+    transform: translate(0,-2px);
+    transition-delay: 0s !important;
+  }
+
+  &:focus {
+    transform: translate(0,-2px);
+  }
+  
+  &:active {
+    transform: translate(0,1px);
+  }
+
+
+
+  // default btn
+  &--defaul {
+    color: #ffffff;
+    border: 1px solid #333333;
+    background-color: #333333;
+  }
+
+  // primiry btn
+  &--primary {
+    color: #ffffff;
+    border: 1px solid #26A69A;
+    background-color: #26A69A;
+  }
+
+  // danger btn
+  &--danger {
+    color: #ffffff;
+    border: 1px solid hsl(0, 48%, 48%);
+    background-color: #b53f3f;
+  }
+
+  &--white {
+    color: #333333;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+  }
+}
